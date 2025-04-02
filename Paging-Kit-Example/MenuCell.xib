@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23506"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="MenuCell" customModule="Paging_Kit_Example" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xv4-YV-tMW">
+                    <rect key="frame" x="5" y="64" width="365" height="564"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="xv4-YV-tMW" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="5" id="Bxh-BC-dH8"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="xv4-YV-tMW" secondAttribute="trailing" constant="5" id="cPk-MM-Nfb"/>
+                <constraint firstItem="xv4-YV-tMW" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="5" id="kz1-7H-UPX"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="xv4-YV-tMW" secondAttribute="bottom" constant="5" id="ovC-xk-0P6"/>
+            </constraints>
+            <connections>
+                <outlet property="titleLabel" destination="xv4-YV-tMW" id="Vss-Xt-adx"/>
+            </connections>
+            <point key="canvasLocation" x="295" y="-86"/>
+        </view>
+    </objects>
+</document>

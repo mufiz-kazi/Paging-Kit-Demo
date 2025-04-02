@@ -1,0 +1,635 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		86A03AF01DC5781815B0AA54 /* Pods_Paging_Kit_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C51376C5EACBF9E2B15BB8FA /* Pods_Paging_Kit_Example.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		368EE41E2D9D06F90070CA5C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 368EE3FF2D9D06F80070CA5C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 368EE4062D9D06F80070CA5C;
+			remoteInfo = "Paging-Kit-Example";
+		};
+		368EE4282D9D06F90070CA5C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 368EE3FF2D9D06F80070CA5C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 368EE4062D9D06F80070CA5C;
+			remoteInfo = "Paging-Kit-Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		22C4D3A79345CA355359AC4D /* Pods-Paging-Kit-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Paging-Kit-Example.release.xcconfig"; path = "Target Support Files/Pods-Paging-Kit-Example/Pods-Paging-Kit-Example.release.xcconfig"; sourceTree = "<group>"; };
+		368EE4072D9D06F80070CA5C /* Paging-Kit-Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Paging-Kit-Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		368EE41D2D9D06F90070CA5C /* Paging-Kit-ExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Paging-Kit-ExampleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		368EE4272D9D06F90070CA5C /* Paging-Kit-ExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Paging-Kit-ExampleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C51376C5EACBF9E2B15BB8FA /* Pods_Paging_Kit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Paging_Kit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC3BE56748A4F0F5FF9BDF24 /* Pods-Paging-Kit-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Paging-Kit-Example.debug.xcconfig"; path = "Target Support Files/Pods-Paging-Kit-Example/Pods-Paging-Kit-Example.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		368EE42F2D9D06F90070CA5C /* Exceptions for "Paging-Kit-Example" folder in "Paging-Kit-Example" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 368EE4062D9D06F80070CA5C /* Paging-Kit-Example */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		368EE4092D9D06F80070CA5C /* Paging-Kit-Example */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				368EE42F2D9D06F90070CA5C /* Exceptions for "Paging-Kit-Example" folder in "Paging-Kit-Example" target */,
+			);
+			path = "Paging-Kit-Example";
+			sourceTree = "<group>";
+		};
+		368EE4202D9D06F90070CA5C /* Paging-Kit-ExampleTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Paging-Kit-ExampleTests";
+			sourceTree = "<group>";
+		};
+		368EE42A2D9D06F90070CA5C /* Paging-Kit-ExampleUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Paging-Kit-ExampleUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		368EE4042D9D06F80070CA5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86A03AF01DC5781815B0AA54 /* Pods_Paging_Kit_Example.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		368EE41A2D9D06F90070CA5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		368EE4242D9D06F90070CA5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		368EE3FE2D9D06F80070CA5C = {
+			isa = PBXGroup;
+			children = (
+				368EE4092D9D06F80070CA5C /* Paging-Kit-Example */,
+				368EE4202D9D06F90070CA5C /* Paging-Kit-ExampleTests */,
+				368EE42A2D9D06F90070CA5C /* Paging-Kit-ExampleUITests */,
+				368EE4082D9D06F80070CA5C /* Products */,
+				71EE19BD91974F7E70B0F760 /* Pods */,
+				6FD8B722675B8D0866ACDB0E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		368EE4082D9D06F80070CA5C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				368EE4072D9D06F80070CA5C /* Paging-Kit-Example.app */,
+				368EE41D2D9D06F90070CA5C /* Paging-Kit-ExampleTests.xctest */,
+				368EE4272D9D06F90070CA5C /* Paging-Kit-ExampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6FD8B722675B8D0866ACDB0E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C51376C5EACBF9E2B15BB8FA /* Pods_Paging_Kit_Example.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		71EE19BD91974F7E70B0F760 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DC3BE56748A4F0F5FF9BDF24 /* Pods-Paging-Kit-Example.debug.xcconfig */,
+				22C4D3A79345CA355359AC4D /* Pods-Paging-Kit-Example.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		368EE4062D9D06F80070CA5C /* Paging-Kit-Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 368EE4302D9D06F90070CA5C /* Build configuration list for PBXNativeTarget "Paging-Kit-Example" */;
+			buildPhases = (
+				458704DDDE056D9F08E6214A /* [CP] Check Pods Manifest.lock */,
+				368EE4032D9D06F80070CA5C /* Sources */,
+				368EE4042D9D06F80070CA5C /* Frameworks */,
+				368EE4052D9D06F80070CA5C /* Resources */,
+				965AE165B217261E0C96FDEC /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				368EE4092D9D06F80070CA5C /* Paging-Kit-Example */,
+			);
+			name = "Paging-Kit-Example";
+			productName = "Paging-Kit-Example";
+			productReference = 368EE4072D9D06F80070CA5C /* Paging-Kit-Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+		368EE41C2D9D06F90070CA5C /* Paging-Kit-ExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 368EE4352D9D06F90070CA5C /* Build configuration list for PBXNativeTarget "Paging-Kit-ExampleTests" */;
+			buildPhases = (
+				368EE4192D9D06F90070CA5C /* Sources */,
+				368EE41A2D9D06F90070CA5C /* Frameworks */,
+				368EE41B2D9D06F90070CA5C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				368EE41F2D9D06F90070CA5C /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				368EE4202D9D06F90070CA5C /* Paging-Kit-ExampleTests */,
+			);
+			name = "Paging-Kit-ExampleTests";
+			productName = "Paging-Kit-ExampleTests";
+			productReference = 368EE41D2D9D06F90070CA5C /* Paging-Kit-ExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		368EE4262D9D06F90070CA5C /* Paging-Kit-ExampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 368EE4382D9D06F90070CA5C /* Build configuration list for PBXNativeTarget "Paging-Kit-ExampleUITests" */;
+			buildPhases = (
+				368EE4232D9D06F90070CA5C /* Sources */,
+				368EE4242D9D06F90070CA5C /* Frameworks */,
+				368EE4252D9D06F90070CA5C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				368EE4292D9D06F90070CA5C /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				368EE42A2D9D06F90070CA5C /* Paging-Kit-ExampleUITests */,
+			);
+			name = "Paging-Kit-ExampleUITests";
+			productName = "Paging-Kit-ExampleUITests";
+			productReference = 368EE4272D9D06F90070CA5C /* Paging-Kit-ExampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		368EE3FF2D9D06F80070CA5C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					368EE4062D9D06F80070CA5C = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					368EE41C2D9D06F90070CA5C = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 368EE4062D9D06F80070CA5C;
+					};
+					368EE4262D9D06F90070CA5C = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 368EE4062D9D06F80070CA5C;
+					};
+				};
+			};
+			buildConfigurationList = 368EE4022D9D06F80070CA5C /* Build configuration list for PBXProject "Paging-Kit-Example" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 368EE3FE2D9D06F80070CA5C;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 368EE4082D9D06F80070CA5C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				368EE4062D9D06F80070CA5C /* Paging-Kit-Example */,
+				368EE41C2D9D06F90070CA5C /* Paging-Kit-ExampleTests */,
+				368EE4262D9D06F90070CA5C /* Paging-Kit-ExampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		368EE4052D9D06F80070CA5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		368EE41B2D9D06F90070CA5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		368EE4252D9D06F90070CA5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		458704DDDE056D9F08E6214A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Paging-Kit-Example-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		965AE165B217261E0C96FDEC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Paging-Kit-Example/Pods-Paging-Kit-Example-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Paging-Kit-Example/Pods-Paging-Kit-Example-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Paging-Kit-Example/Pods-Paging-Kit-Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		368EE4032D9D06F80070CA5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		368EE4192D9D06F90070CA5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		368EE4232D9D06F90070CA5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		368EE41F2D9D06F90070CA5C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 368EE4062D9D06F80070CA5C /* Paging-Kit-Example */;
+			targetProxy = 368EE41E2D9D06F90070CA5C /* PBXContainerItemProxy */;
+		};
+		368EE4292D9D06F90070CA5C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 368EE4062D9D06F80070CA5C /* Paging-Kit-Example */;
+			targetProxy = 368EE4282D9D06F90070CA5C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		368EE4312D9D06F90070CA5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC3BE56748A4F0F5FF9BDF24 /* Pods-Paging-Kit-Example.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Paging-Kit-Example/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.enjoy.enjoyfresh.Paging-Kit-Example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		368EE4322D9D06F90070CA5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22C4D3A79345CA355359AC4D /* Pods-Paging-Kit-Example.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Paging-Kit-Example/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.enjoy.enjoyfresh.Paging-Kit-Example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		368EE4332D9D06F90070CA5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		368EE4342D9D06F90070CA5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		368EE4362D9D06F90070CA5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.enjoy.enjoyfresh.Paging-Kit-ExampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Paging-Kit-Example.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Paging-Kit-Example";
+			};
+			name = Debug;
+		};
+		368EE4372D9D06F90070CA5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.enjoy.enjoyfresh.Paging-Kit-ExampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Paging-Kit-Example.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Paging-Kit-Example";
+			};
+			name = Release;
+		};
+		368EE4392D9D06F90070CA5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.enjoy.enjoyfresh.Paging-Kit-ExampleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Paging-Kit-Example";
+			};
+			name = Debug;
+		};
+		368EE43A2D9D06F90070CA5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.enjoy.enjoyfresh.Paging-Kit-ExampleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Paging-Kit-Example";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		368EE4022D9D06F80070CA5C /* Build configuration list for PBXProject "Paging-Kit-Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				368EE4332D9D06F90070CA5C /* Debug */,
+				368EE4342D9D06F90070CA5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		368EE4302D9D06F90070CA5C /* Build configuration list for PBXNativeTarget "Paging-Kit-Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				368EE4312D9D06F90070CA5C /* Debug */,
+				368EE4322D9D06F90070CA5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		368EE4352D9D06F90070CA5C /* Build configuration list for PBXNativeTarget "Paging-Kit-ExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				368EE4362D9D06F90070CA5C /* Debug */,
+				368EE4372D9D06F90070CA5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		368EE4382D9D06F90070CA5C /* Build configuration list for PBXNativeTarget "Paging-Kit-ExampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				368EE4392D9D06F90070CA5C /* Debug */,
+				368EE43A2D9D06F90070CA5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 368EE3FF2D9D06F80070CA5C /* Project object */;
+}
